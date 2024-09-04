@@ -1,18 +1,5 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'DM Sans', sans-serif;
-}
-
-.wrapper {
-    max-width: 1000px;
-    margin: 0 auto;
-}
-
 .logo a {
     text-decoration: none;
-    color: #000;
 }
 
 .header-content {
@@ -23,9 +10,10 @@
 }
 
 header {
-    border-bottom: 1px solid black;
     position: sticky;
     top: 0;
+    background-color: var(--background-darker);
+    border-bottom: 1px solid var(--primary);
 }
 
 nav {
@@ -35,7 +23,6 @@ nav {
 
 nav a {
     text-decoration: none;
-    color: #000;
     position: relative;
 }
 
@@ -46,7 +33,7 @@ nav a::after {
     left: 0;
     width: 0;
     height: 1px;
-    background-color: #000;
+    background-color: var(--primary);
     transition: width 0.3s ease-in-out;
 }
 

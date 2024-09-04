@@ -1,0 +1,30 @@
+#presentation {
+    border-bottom: 1px solid var(--primary);
+}
+
+.presentation-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 1.7em;
+    height: 100%;
+}
+
+.presentation-content .img {
+    width: 400px;
+    height: 400px;
+    background-color: var(--primary);
+}
+
+.presentation-content #name {
+    margin: -15px 0 -10px 0;
+}
+
+.presentation-content .text-large {
+    font-size: 2em;
+}
+
+.presentation-content .text-small {
+    font-size: 0.5em;
+    font-weight: 500;
+}
