@@ -20,6 +20,37 @@
     margin: -15px 0 -10px 0;
 }
 
+.presentation-content .contact {
+    display: flex;
+    gap: 15px;
+}
+
+.presentation-content .contact div {
+    background-color: var(--background-darker);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    border: 1px solid var(--primary);
+    border-radius: 8px;
+}
+
+.presentation-content a {
+    text-decoration: none;
+}
+
+.presentation-content .contact svg {
+    width: 1em;
+}
+
+.presentation-content #cv {
+    background-color: var(--primary);
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-size: 0.5em;
+    border: none;
+}
+
 .presentation-content .text-large {
     font-size: 2em;
 }
