@@ -1,7 +1,3 @@
-#presentation {
-    border-bottom: 1px solid var(--primary);
-}
-
 .presentation-content {
     display: flex;
     align-items: center;
@@ -58,4 +54,84 @@
 .presentation-content .text-small {
     font-size: 0.5em;
     font-weight: 500;
+}
+
+@media (max-width: 768px) {
+
+    .presentation-content {
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+    .presentation-content .contact {
+        flex-direction: column;
+        text-align: center;
+    }
+}
+
+@media (max-width: 600px) {
+    .presentation-content {
+        flex-wrap: wrap-reverse;
+        justify-content: center;
+    }
+
+    .presentation-content .img {
+        margin-bottom: 5em;
+    }
+
+    .presentation-content .contact {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .presentation-content .text-large {
+        font-size: 1.5em;
+    }
+
+    .presentation-content .text-small {
+        font-size: 0.8em;
+    }
+
+    .header-content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav {
+        flex-direction: column;
+        gap: 10px;
+    }
+}
+
+@media (max-width: 450px) {
+    .presentation-content {
+        flex-wrap: wrap-reverse;
+        justify-content: center;
+        padding: 0 10px;
+    }
+
+    .presentation-content .img {
+        width: 300px;
+        height: 300px;
+    }
+
+    .presentation-content .contact {
+        flex-direction: column;
+        gap: 5px;
+        text-align: center;
+    }
+
+    .presentation-content .text-large {
+        font-size: 1.2em;
+    }
+
+    .presentation-content .text-small {
+        font-size: 0.8em;
+    }
+
+    .svg-icon {
+        width: 24px;
+        height: 24px;
+    }
 }

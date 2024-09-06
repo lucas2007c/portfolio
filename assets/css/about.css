@@ -1,0 +1,27 @@
+#about {
+    height: 100%;
+}
+
+.about-content {
+    padding: 50px 0;
+    font-size: 1.2em;
+}
+
+.about-content h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.about-content p {
+    text-align: justify;
+}
+
+@media (max-width: 450px) {
+    .about-content {
+        font-size: 1.3em;
+    }
+
+    .about-content p {
+        text-align: justify;
+    }
+}

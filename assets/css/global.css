@@ -10,6 +10,7 @@
     box-sizing: border-box;
     font-family: 'DM Sans', sans-serif;
     color: #fff;
+    scroll-behavior: smooth;
 }
 
 body {
@@ -23,6 +24,7 @@ h1 {
 
 section {
     height: 92dvh;
+    border-bottom: 1px solid var(--primary);
 }
 
 .wrapper {
