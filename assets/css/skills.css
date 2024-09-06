@@ -17,8 +17,10 @@
 }
 
 .skills-content .skills {
-    display: flex;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(110px, 1fr));
+    place-items: center;
+    width: 100%;
     gap: 20px
 }
 
