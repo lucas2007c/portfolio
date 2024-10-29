@@ -9,7 +9,8 @@
 .presentation-content .img {
     width: 400px;
     height: 400px;
-    background-color: var(--primary);
+    background-image: url('../img/developer.png');
+    background-size: cover;
 }
 
 .presentation-content #name {
