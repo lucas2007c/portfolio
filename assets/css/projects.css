@@ -55,3 +55,9 @@
     text-align: center;
     gap: 10px;
 }
+
+.project-icons {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+}

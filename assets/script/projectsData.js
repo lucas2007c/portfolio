@@ -7,7 +7,7 @@ export default [
         image: `${imagePath}/fasttravel.png`,
         video: ``,
         repository: `${githubUrl}/pi2-interface-onibus`,
-        technologies: ['html5', 'bootstrap', 'express', 'prisma'],
+        technologies: ['devicon-html5-plain', 'devicon-bootstrap-plain', 'devicon-express-original', 'devicon-prisma-original'],
     },
     {
         name: 'Biodex',
@@ -15,7 +15,7 @@ export default [
         image: `${imagePath}/teste.png`,
         video: ``,
         repository: `${githubUrl}/geek-diary`,
-        technologies: ['react', 'bootstrap', 'express', 'prisma'],
+        technologies: ['devicon-react-original', 'devicon-express-original', 'devicon-prisma-original'],
     },
     {
         name: 'geek diary',
@@ -23,6 +23,6 @@ export default [
         image: `${imagePath}/teste.png`,
         video: ``,
         repository: `${githubUrl}/geek-diary`,
-        technologies: ['html5', 'bootstrap', 'express', 'prisma'],
+        technologies: ['devicon-react-original', 'devicon-express-original', 'devicon-prisma-original'],
     }
 ]
