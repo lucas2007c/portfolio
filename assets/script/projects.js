@@ -1,16 +1,17 @@
 import projects from './projectsData.js';
 const projectContent = document.querySelector('.projects');
+import { openModal } from './modal.js';
 
 projects.forEach(project => {
     const projectElement = document.createElement('div');
     projectElement.classList.add('project');
+    projectElement.addEventListener('click', () => {
+        openModal(project);
+    });
 
     const projectTechnologies = project.technologies.map(technology => {
         return `<i class=${technology}></i>`;
     })
-
-    console.log(projectTechnologies);
-
 
     projectElement.innerHTML = `
         <div class="project-image">
