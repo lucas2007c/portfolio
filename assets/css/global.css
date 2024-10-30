@@ -25,7 +25,7 @@ h1 {
 }
 
 section {
-    height: 92dvh;
+    height: 100%;
     border-bottom: 1px solid var(--primary);
 }
 
@@ -43,4 +43,12 @@ section {
 .font-title,
 .font-title span {
     font-family: "Poppins", sans-serif;
+}
+
+.scroll-target {
+    position: relative;
+    padding-top: 60px;
+    /* Ajuste conforme necessário */
+    margin-top: -60px;
+    /* Ajuste conforme necessário */
 }

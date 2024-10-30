@@ -1,3 +1,7 @@
+#presentation {
+    height: 100dvh;
+}
+
 .presentation-content {
     display: flex;
     align-items: center;
