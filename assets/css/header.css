@@ -14,6 +14,7 @@ header {
     top: 0;
     background-color: var(--background-darker);
     border-bottom: 1px solid var(--primary);
+    z-index: 2;
 }
 
 nav {
@@ -39,4 +40,45 @@ nav a::after {
 
 nav a:hover::after {
     width: 100%;
+}
+
+.menu-btn {
+    display: none;
+}
+
+.menu-btn i {
+    font-size: 1.5em;
+}
+
+@media (max-width: 600px) {
+    nav {
+        display: none;
+        flex-direction: column;
+        gap: 15px;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        background-color: var(--background-darker);
+        padding: 10px;
+        border-bottom: 1px solid var(--primary);
+        z-index: 2;
+    }
+
+    nav a {
+        text-align: center;
+    }
+
+    nav a::after {
+        display: none;
+    }
+
+    .menu-btn {
+        display: block;
+        cursor: pointer;
+    }
+
+    .fa-x {
+        font-weight: 500;
+    }
 }
