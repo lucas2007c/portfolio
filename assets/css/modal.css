@@ -64,6 +64,24 @@
     overflow-y: auto;
 }
 
+.modal-info::-webkit-scrollbar {
+    width: 7px;
+}
+
+.modal-info::-webkit-scrollbar-track {
+    border-radius: 10px;
+    background: var(--background-darker);
+}
+
+.modal-info::-webkit-scrollbar-thumb {
+    background: var(--primary);
+    border-radius: 10px;
+}
+
+.modal-info::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
 .modal-video {
     width: 100%;
 }
@@ -88,6 +106,10 @@
     border-radius: 8px;
     border: none;
     text-decoration: none;
+}
+
+.paragraph {
+    margin-left: 10px;
 }
 
 @media (max-width: 768px) {
