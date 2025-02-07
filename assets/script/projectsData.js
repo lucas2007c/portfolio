@@ -4,22 +4,25 @@ const videoPath = './assets/video';
 export default [
     {
         name: 'fasttravel',
-        description: `Este projeto é um sistema completo para uma empresa de ônibus ficticia, foi feito em grupo com mais 2 pessoas para o projeto integrador 2 do curso, embora tenha ajudado em algumas partes do frontend, fiquei responsável por todo o backend. o projeto possui 3 partes:
+        description: `<span class='paragraph'></span>Este projeto é um sistema completo para uma empresa de ônibus ficticia, foi feito em grupo com mais 2 pessoas para o projeto integrador 2 do curso, embora tenha ajudado em algumas partes do frontend, fiquei responsável por todo o backend. o projeto possui 3 partes:
         <br>
         <br>
-        -Site público<br>
+        <span class="white">-Site público</span><br>
             <span class='paragraph'></span>Este site fala sobre a empresa e como ela funciona. Aqui o passageiro pode ver as linhas cadastradas, recarregar o cartão, conferir o saldo e ver o seu histórico de viagens.
             <br>
             <br>
-        -Dashboard<br>
+        <span class="white">-Dashboard</span><br>
             <span class='paragraph'></span>A dashboard é uma ferramenta para os funcionários da empresa, onde eles podem controlar as linhas, passageiros, motoristas e ônibus cadastrados.
             <br>
             <br>
-        -Tela do ônibus<br>
+        <span class="white">-Tela do ônibus</span><br>
             <span class='paragraph'></span>Esta é a tela que fica na catraca do ônibus, onde o passageiro encosta o cartãoe caso haja saldo, a catraca é liberada.
             <br>
             <br>
-        O projeto foi feito com as tecnologias: HTML, CSS, Bootstrap, JavaScript, Node.js, Express, Prisma e MySQL.
+        <span class="white">Tecnologias utilizadas:</span><br>
+            <span class="white">-Frontend:</span> HTML, CSS, Bootstrap, JavaScript, EJS, Express e SweetAlert2
+            <br>
+            <span class="white">-Backend:</span> Node.js, Express, Prisma, MySQL, JWT e Bcrypt<br>
         `,
         shortDescription: 'Sistema completo para uma empresa de ônibus ficticia. Atuei na maior parte do backend e em algumas do frontend.',
         image: `${imagePath}/fasttravel.png`,
@@ -31,14 +34,14 @@ export default [
         name: 'Biodex',
         description: `<span class='paragraph'></span>O BioDex é um sistema completo e integrado com três módulos principais:
             <br><br>
-            📱 Aplicativo Mobile: Um app gamificado com login social, onde os visitantes podem escanear QR codes espalhados pelo parque para desbloquear informações sobre a fauna. Cada QR code lido resulta em pontos para o ranking mensal, incentivando a competitividade entre os visitantes.
+            📱 <span class="white">Aplicativo Mobile:</span> Um app gamificado com login social, onde os visitantes podem escanear QR codes espalhados pelo parque para desbloquear informações sobre a fauna. Cada QR code lido resulta em pontos para o ranking mensal, incentivando a competitividade entre os visitantes.
             <br><br>
-            🏞️🖥️ Totem de Visita: Localizado na entrada do parque, o totem permite que os visitantes se registrem de forma rápida e eficiente por meio de um formulário. Também é possível usar o app para escanear o QR code do totem e registrar a visita sem preencher o formulário manualmente.
+            🏞️🖥️ <span class="white">Totem de Visita:</span> Localizado na entrada do parque, o totem permite que os visitantes se registrem de forma rápida e eficiente por meio de um formulário. Também é possível usar o app para escanear o QR code do totem e registrar a visita sem preencher o formulário manualmente.
             <br><br>
-            📊📑 Painel Administrativo: O painel permite que os administradores visualizem informações sobre os visitantes, com a possibilidade de exportá-las em PDF ou Excel. Além disso, é possível gerenciar conteúdos relacionados ao parque, como informações sobre animais e pontos de interesse.
+            📊📑 <span class="white">Painel Administrativo:</span> O painel permite que os administradores visualizem informações sobre os visitantes, com a possibilidade de exportá-las em PDF ou Excel. Além disso, é possível gerenciar conteúdos relacionados ao parque, como informações sobre animais e pontos de interesse.
             <br>
             <br>
-            🚀 Principais aprendizados e tecnologias aplicadas:
+            🚀 <span class="white">Principais aprendizados e tecnologias aplicadas:</span>
             <br><br>
             🖥️ Backend com arquitetura MVC e Express;<br>
             ⚛️ Desenvolvimento mobile com React Native;<br>
@@ -67,20 +70,20 @@ export default [
         name: 'geek diary',
         description: `<span class="paragraph"></span>O geek diary é um aplicativo de anotações para jogos e séries.
                             <br><br>
-                            <span class="description-title">Principais funcionalidades:</span>
+                            <span class="white">Principais funcionalidades:</span>
                             <br>
                             - Crud de jogos e séries com validação de dados via Zod<br>
                             - Login com jwt via cookies e senhas criptografadas<br>
                             - Sistema de pesquisa e favoritos<br>
                             - Testes unitários com Jest e Supertest
                             <br><br>
-                            <span class="description-title">Tecnologias utilizadas:</span>
+                            <span class="white">Tecnologias utilizadas:</span>
                             <br>
-                            -Frontend: Expo, React Native, React Navigation, Axios e Zustand.
-                            <br><br>
-                            -Backend: Node.js, Express, Prisma, Mysql, Zod, JWT, bcrypt, Jest e Supertest
-                            <br><br>
-                            -Deploy: Render para o backend e banco de dados
+                            <span class="white">-Frontend:</span> Expo, React Native, React Navigation, Axios e Zustand.
+                            <br>
+                            <span class="white">-Backend:</span> Node.js, Express, Prisma, Mysql, Zod, JWT, bcrypt, Jest e Supertest
+                            <br>
+                            <span class="white">-Deploy:</span> Render para o backend e banco de dados
                             `,
         shortDescription: 'Um aplicativo onde o usuário pode cadastrar jogos e séries e fazer anotações sobre eles. Projeto solo.',
         image: `${imagePath}/geekdiary.png`,
