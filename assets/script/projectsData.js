@@ -1,6 +1,6 @@
 const githubUrl = 'https://github.com/lucas2007c';
-const imagePath = '../assets/img';
-const videoPath = '../assets/video';
+const imagePath = './assets/img';
+const videoPath = './assets/video';
 export default [
     {
         name: 'fasttravel',
