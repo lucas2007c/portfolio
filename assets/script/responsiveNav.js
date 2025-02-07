@@ -7,3 +7,8 @@ const toogleNav = () => {
 
 const menuBtn = document.querySelector('.menu-btn');
 menuBtn.addEventListener('click', toogleNav);
+
+const navLinks = document.querySelectorAll('nav a');
+navLinks.forEach(link => {
+    link.addEventListener('click', toogleNav);
+});
