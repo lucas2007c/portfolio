@@ -69,6 +69,10 @@
         align-items: center;
         justify-content: space-evenly;
     }
+
+    .presentation-content .img {
+        width: 350px;
+    }
 }
 
 @media (max-width: 600px) {
