@@ -98,6 +98,7 @@
     align-items: center;
     border-top: 1px solid var(--primary);
     padding: 10px;
+    gap: 10px;
 }
 
 .modal-footer a {
