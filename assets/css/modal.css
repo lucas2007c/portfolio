@@ -58,7 +58,7 @@
 }
 
 .modal-info {
-    max-height: 350px;
+    max-height: 300px;
     min-width: 40%;
     max-width: 50%;
     overflow-y: auto;
