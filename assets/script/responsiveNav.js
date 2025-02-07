@@ -10,5 +10,7 @@ menuBtn.addEventListener('click', toogleNav);
 
 const navLinks = document.querySelectorAll('nav a');
 navLinks.forEach(link => {
-    link.addEventListener('click', toogleNav);
+    link.addEventListener('click', () => {
+        if (window.innerWidth < 600) toogleNav();
+    });
 });
