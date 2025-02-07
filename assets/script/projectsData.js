@@ -65,9 +65,25 @@ export default [
     },
     {
         name: 'geek diary',
-        description: 'Aplicativo de anotações para jogos e séries',
-        shortDescription: 'Um aplicativo onde o usuário pode cadastrar jogos e séries e fazer anotações sobre eles. Desenvolvi o aplicativo inteiro sozinho.',
-        image: `${imagePath}/teste.png`,
+        description: `<span class="paragraph"></span>O geek diary é um aplicativo de anotações para jogos e séries.
+                            <br><br>
+                            <span class="description-title">Principais funcionalidades:</span>
+                            <br>
+                            - Crud de jogos e séries com validação de dados via Zod<br>
+                            - Login com jwt via cookies e senhas criptografadas<br>
+                            - Sistema de pesquisa e favoritos<br>
+                            - Testes unitários com Jest e Supertest
+                            <br><br>
+                            <span class="description-title">Tecnologias utilizadas:</span>
+                            <br>
+                            -Frontend: Expo, React Native, React Navigation, Axios e Zustand.
+                            <br><br>
+                            -Backend: Node.js, Express, Prisma, Mysql, Zod, JWT, bcrypt, Jest e Supertest
+                            <br><br>
+                            -Deploy: Render para o backend e banco de dados
+                            `,
+        shortDescription: 'Um aplicativo onde o usuário pode cadastrar jogos e séries e fazer anotações sobre eles. Projeto solo.',
+        image: `${imagePath}/geekdiary.png`,
         video: `${videoPath}/videoMobile.mp4`,
         repository: `${githubUrl}/geek-diary`,
         technologies: ['devicon-react-original', 'devicon-express-original', 'devicon-prisma-original'],
