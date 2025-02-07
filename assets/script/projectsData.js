@@ -23,7 +23,7 @@ export default [
         `,
         shortDescription: 'Sistema completo para uma empresa de ônibus ficticia. Atuei na maior parte do backend e em algumas do frontend.',
         image: `${imagePath}/fasttravel.png`,
-        video: `${videoPath}/Fasttravel.mp4`,
+        video: `${videoPath}/fasttravel.mp4`,
         repository: `${githubUrl}/pi2-interface-onibus`,
         technologies: ['devicon-html5-plain', 'devicon-bootstrap-plain', 'devicon-express-original', 'devicon-prisma-original'],
     },
