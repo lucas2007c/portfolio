@@ -22,6 +22,9 @@ projects.forEach(project => {
                     ${projectTechnologies.join('')}
                 </div>
             </div>
+            <div class="project-short-description">
+                    <p>${project.shortDescription}</p>
+            </div>
         </div>
     `;
     projectContent.appendChild(projectElement);

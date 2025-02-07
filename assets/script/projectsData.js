@@ -21,6 +21,7 @@ export default [
             <br>
         O projeto foi feito com as tecnologias: HTML, CSS, Bootstrap, JavaScript, Node.js, Express, Prisma e MySQL.
         `,
+        shortDescription: 'Sistema completo para uma empresa de ônibus ficticia. Atuei na maior parte do backend e em algumas do frontend.',
         image: `${imagePath}/fasttravel.png`,
         video: `${videoPath}/Fasttravel.mp4`,
         repository: `${githubUrl}/pi2-interface-onibus`,
@@ -55,7 +56,8 @@ export default [
             🔑 Revalidação de tokens JWT com Axios;<br>
             📝 Formulários interativos visualmente;<br>
         `,
-        image: `${imagePath}/teste.png`,
+        shortDescription: 'Este projeto foi feito em uma parceria entre a prefeitura da minha cidade e a minha classe no curso. O BioDex é um sistema completo com três módulos principais: um aplicativo, um totem de visita e uma dashboard. Atuei no desenvolvimento do aplicativo mobile.',
+        image: `${imagePath}/biodex.png`,
         video: `${videoPath}/biodex.mp4`,
         repository: `https://github.com/Programadorwolrd/pj3-Aplicativo-Municipal`,
         linkedinPost: 'https://www.linkedin.com/posts/leonardo-l-felix_reactnative-javascript-nodejs-activity-7273338719619682305-0yRi?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFCgdHcB29x_ng9jMByxj1qnMzIb_neiqyA',
@@ -64,6 +66,7 @@ export default [
     {
         name: 'geek diary',
         description: 'Aplicativo de anotações para jogos e séries',
+        shortDescription: 'Um aplicativo onde o usuário pode cadastrar jogos e séries e fazer anotações sobre eles. Desenvolvi o aplicativo inteiro sozinho.',
         image: `${imagePath}/teste.png`,
         video: `${videoPath}/videoMobile.mp4`,
         repository: `${githubUrl}/geek-diary`,
