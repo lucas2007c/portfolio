@@ -113,6 +113,10 @@
     margin-left: 10px;
 }
 
+.description-title {
+    color: #fff;
+}
+
 @media (max-width: 768px) {
     .modal-content {
         max-height: 100%;
