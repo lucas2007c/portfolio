@@ -28,10 +28,37 @@ export default [
     },
     {
         name: 'Biodex',
-        description: 'Aplicativo feito para a prefeitura de caraguatatuba',
+        description: `<span class='paragraph'></span>O BioDex é um sistema completo e integrado com três módulos principais:
+            <br><br>
+            📱 Aplicativo Mobile: Um app gamificado com login social, onde os visitantes podem escanear QR codes espalhados pelo parque para desbloquear informações sobre a fauna. Cada QR code lido resulta em pontos para o ranking mensal, incentivando a competitividade entre os visitantes.
+            <br><br>
+            🏞️🖥️ Totem de Visita: Localizado na entrada do parque, o totem permite que os visitantes se registrem de forma rápida e eficiente por meio de um formulário. Também é possível usar o app para escanear o QR code do totem e registrar a visita sem preencher o formulário manualmente.
+            <br><br>
+            📊📑 Painel Administrativo: O painel permite que os administradores visualizem informações sobre os visitantes, com a possibilidade de exportá-las em PDF ou Excel. Além disso, é possível gerenciar conteúdos relacionados ao parque, como informações sobre animais e pontos de interesse.
+            <br>
+            <br>
+            🚀 Principais aprendizados e tecnologias aplicadas:
+            <br><br>
+            🖥️ Backend com arquitetura MVC e Express;<br>
+            ⚛️ Desenvolvimento mobile com React Native;<br>
+            🗄️ Gestão de banco de dados com Prisma ORM e PostgreSQL;<br>
+            🔄 Comunicação em tempo real com Socket.io;<br>
+            🔒 Implementação de autenticação JWT para segurança de usuários;<br>
+            🔐 Login social com Google e Facebook;<br>
+            🔑 Controle de permissões para contas totem, administradores e visitantes;<br>
+            🌱 Gamificação e Educação Ambiental;<br>
+            📈 Dashboard interativo e exportação de dados;<br>
+            📊 Criação e leitura de QR code;<br>
+            🏆 Ranking mensal dos visitantes;<br>
+            🔄 Gerenciamento de estado com Zustand e React Query;<br>
+            📱 Gerenciamento de telas com Expo Router;<br>
+            🔑 Revalidação de tokens JWT com Axios;<br>
+            📝 Formulários interativos visualmente;<br>
+        `,
         image: `${imagePath}/teste.png`,
-        video: `${videoPath}/videoMobile.mp4`,
-        repository: `${githubUrl}/pj3-Aplicativo-Municipal`,
+        video: `${videoPath}/biodex.mp4`,
+        repository: `https://github.com/Programadorwolrd/pj3-Aplicativo-Municipal`,
+        linkedinPost: 'https://www.linkedin.com/posts/leonardo-l-felix_reactnative-javascript-nodejs-activity-7273338719619682305-0yRi?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFCgdHcB29x_ng9jMByxj1qnMzIb_neiqyA',
         technologies: ['devicon-react-original', 'devicon-express-original', 'devicon-prisma-original'],
     },
     {
