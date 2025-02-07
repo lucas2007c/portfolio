@@ -1,0 +1,20 @@
+footer {
+    background-color: var(--background-darker);
+    padding: 10px 0;
+    text-align: center;
+    color: #fff;
+}
+
+.footer-content p {
+    margin: 0;
+    font-size: 1em;
+}
+
+.footer-content a {
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.footer-content a:hover {
+    color: var(--primary);
+}
