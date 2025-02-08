@@ -87,7 +87,7 @@ export default [
                             `,
         shortDescription: 'Um aplicativo onde o usuário pode cadastrar jogos e séries e fazer anotações sobre eles. Projeto solo.',
         image: `${imagePath}/geekdiary.png`,
-        video: `${videoPath}/videoMobile.mp4`,
+        video: `${videoPath}/geekdiary.mp4`,
         repository: `${githubUrl}/geek-diary`,
         technologies: ['devicon-react-original', 'devicon-express-original', 'devicon-prisma-original'],
     }
