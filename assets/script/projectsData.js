@@ -91,15 +91,4 @@ export default [
         repository: `${githubUrl}/geek-diary`,
         technologies: ['devicon-react-original', 'devicon-express-original', 'devicon-prisma-original'],
     },
-    {
-        name: 'SmartGym',
-        description: `<span class="paragraph"></span>Um sistema de gerenciamento de turmas e alunos para uma academia. O site irá conter 
-                        funcionalidades como docker para containerização do banco de dados e backend, implementação da api do google drive
-                        para armazenamento de imagens/pdfs e documentação com postman`,
-        shortDescription: 'Um sistema de gerenciamento de turmas e alunos para uma academia. Projeto solo e em andamento.',
-        image: `${imagePath}/emDev.png`,
-        video: `${videoPath}/`,
-        repository: `${githubUrl}/`,
-        technologies: ['devicon-react-original', 'devicon-express-original', 'devicon-prisma-original', 'devicon-docker-plain'],
-    },
 ]
