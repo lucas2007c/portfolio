@@ -4,7 +4,7 @@ const videoPath = './assets/video';
 export default [
     {
         name: 'fasttravel',
-        description: `<span class='paragraph'></span>Este projeto é um sistema completo para uma empresa de ônibus ficticia, foi feito em grupo com mais 2 pessoas para o projeto integrador 2 do curso, embora tenha ajudado em algumas partes do frontend, fiquei responsável por todo o backend. o projeto possui 3 partes:
+        description: `<span class='paragraph'></span>Este projeto é um sistema completo para uma empresa de ônibus ficticia, foi feito em grupo com mais 2 pessoas para o projeto integrador 2 do curso, embora tenha colaborado em algumas partes do frontend, fiquei responsável por maior parte do backend. o projeto possui 3 partes:
         <br>
         <br>
         <span class="white">-Site público</span><br>
@@ -16,7 +16,7 @@ export default [
             <br>
             <br>
         <span class="white">-Tela do ônibus</span><br>
-            <span class='paragraph'></span>Esta é a tela que fica na catraca do ônibus, onde o passageiro encosta o cartãoe caso haja saldo, a catraca é liberada.
+            <span class='paragraph'></span>Esta é a tela que fica na catraca do ônibus, onde o passageiro aproxima o cartão, se houver saldo, a catraca é liberada automaticamente, além de mais dois casos: catraca totalmente liberada para idosos e gratuita duas vezes por dia para estudantes.
             <br>
             <br>
         <span class="white">Tecnologias utilizadas:</span><br>
@@ -28,11 +28,12 @@ export default [
         image: `${imagePath}/fasttravel.png`,
         video: `${videoPath}/fasttravel.mp4`,
         repository: `${githubUrl}/pi2-interface-onibus`,
+        linkedinPost: `https://www.linkedin.com/posts/lucascarneirog_nodejs-express-prisma-activity-7327777792257925122-Db9c?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFCgdHcB29x_ng9jMByxj1qnMzIb_neiqyA`,
         technologies: ['devicon-html5-plain', 'devicon-bootstrap-plain', 'devicon-express-original', 'devicon-prisma-original'],
     },
     {
         name: 'Biodex',
-        description: `<span class='paragraph'></span>O BioDex é um sistema completo e integrado com três módulos principais:
+        description: `<span class='paragraph'></span>Um sistema completo feito em parceria com a prefeitura de caraguatatuba para ser utilizado no Parque Municipal do Juqueriquerê. O projeto foi separado em partes e desenvolvido por toda a turma. Os três módulos principais do sistema:
             <br><br>
             📱 <span class="white">Aplicativo Mobile:</span> Um app gamificado com login social, onde os visitantes podem escanear QR codes espalhados pelo parque para desbloquear informações sobre a fauna. Cada QR code lido resulta em pontos para o ranking mensal, incentivando a competitividade entre os visitantes.
             <br><br>
@@ -68,7 +69,7 @@ export default [
     },
     {
         name: 'geek diary',
-        description: `<span class="paragraph"></span>O geek diary é um aplicativo de anotações para jogos e séries.
+        description: `<span class="paragraph"></span>Um app onde você pode adicionar seus jogos e séries favoritos e fazer uma variedade de anotações sobre ele. Desenvolvi este projeto para a "prova" final da matéria de Desenvolvimento Mobile em 2024, Onde coloquei em prática tudo que aprendi ao longo do semestre.
                             <br><br>
                             <span class="white">Principais funcionalidades:</span>
                             <br>
@@ -89,6 +90,7 @@ export default [
         image: `${imagePath}/geekdiary.png`,
         video: `${videoPath}/geekdiary.mp4`,
         repository: `${githubUrl}/geek-diary`,
+        linkedinPost: `https://www.linkedin.com/posts/lucascarneirog_reactnative-nodejs-express-activity-7327781805053419522-cIDy?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFCgdHcB29x_ng9jMByxj1qnMzIb_neiqyA`,
         technologies: ['devicon-react-original', 'devicon-express-original', 'devicon-prisma-original'],
     },
 ]
