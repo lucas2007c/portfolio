@@ -18,7 +18,7 @@ const openModal = (project) => {
                     </div>
                 </div>
                 <div class="modal-footer">
-                    <a href=${project.repository} target="blank_">Repositório</a>
+                    ${project.repository ? `<a href=${project.repository} target="blank_">Repositório</a>`: ''}
                     ${project.linkedinPost ? `<a href=${project.linkedinPost} target="blank_">LinkedIn</a>` : ''}
                 </div>
             </div>

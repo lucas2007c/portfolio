@@ -93,4 +93,36 @@ export default [
         linkedinPost: `https://www.linkedin.com/posts/lucascarneirog_reactnative-nodejs-express-activity-7327781805053419522-cIDy?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFCgdHcB29x_ng9jMByxj1qnMzIb_neiqyA`,
         technologies: ['devicon-react-original', 'devicon-express-original', 'devicon-prisma-original'],
     },
+    {
+        name: 'Gestão Polícia Civil',
+        description: `<span class='paragraph'></span>Sistema Full Stack desenvolvido durante meu estágio para digitalizar o fluxo de Ordens de Serviço (OS), Intimações e Relatórios, substituindo processos manuais e cadernos de protocolo.
+        <br><br>
+        <span class="white">-O Desafio</span><br>
+        <span class='paragraph'></span>O processo antigo sofria com gargalos logísticos: dependia de entregas físicas de documentos e exigia deslocamentos de 9km entre delegacias apenas para trâmites burocráticos, gerando atrasos nas investigações.
+        <br><br>
+        <span class="white">-A Solução</span><br>
+        <span class='paragraph'></span>Desenvolvi uma plataforma web centralizada que permite a gestão assíncrona e remota. O sistema conecta escrivães e investigadores em tempo real, eliminando a necessidade de coincidência de horários e transporte físico de papel.
+        <br><br>
+        <span class="white">Funcionalidades principais:</span><br>
+        - Notificações em Tempo Real (WebSockets) via sistema de salas;<br>
+        - Geração dinâmica de PDFs oficiais (OS, Intimações e Relatórios);<br>
+        - Controle de acesso por cargos (RBAC) e segurança de rede.
+        <br><br>
+        <span class="white">Tecnologias utilizadas:</span><br>
+            <span class="white">-Frontend:</span> React (Vite), React-Router, Zustand; React-PDF; React-Quill.
+            <br>
+            <span class="white">-Backend:</span> Node.js, Express, PostgreSQL, Prisma ORM, Socket.io, node-cron.
+            <br>
+            <span class="white">-Infra:</span> Deploy via Render (CI/CD), bloqueio de segurança para permitir acesso apenas pela rede interna.
+            <br>
+            <br>
+            <span class="white">OBS: Por motivos de segurança não poderei deixar o repositório público</span>
+        `,
+        shortDescription: 'Sistema de gestão de Ordens de Serviço desenvolvido para a Polícia Civil. Digitalizou o fluxo de documentos, eliminando o uso de papel e deslocamentos físicos com atualizações em tempo real.',
+        image: `${imagePath}/delegacia.png`,
+        video: `${videoPath}/delegacia.mp4`,
+        repository: null,
+        linkedinPost: `https://www.linkedin.com/posts/lucascarneirog_estaergio-desenvolvimentoweb-ads-activity-7421547445836447744-w4CW?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFCgdHcB29x_ng9jMByxj1qnMzIb_neiqyA`,
+        technologies: ['devicon-react-original', 'devicon-express-original', 'devicon-prisma-original', 'devicon-socketio-original', 'devicon-zustand-plain'],
+    },
 ]
