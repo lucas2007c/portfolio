@@ -40,24 +40,18 @@
     color: var(--primary);
 }
 
+.skills-content .backend,
 .skills-content .backend i {
     color: #7FB763;
 }
 
+.skills-content .mobile,
 .skills-content .mobile i {
     color: #087ea4;
 }
 
-.skills-content .backend {
-    border-color: #7FB763;
-}
-
-.skills-content .mobile {
-    border-color: #087ea4;
-}
-
-.skills-content .other i {
-    color: #f05539;
+.skills-content .fullstack i {
+    color: #fff;
 }
 
 .skills-content #expo {
